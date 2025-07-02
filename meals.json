@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": {
+        "en": "Couscous",
+        "fr": "Couscous",
+        "ar": "كسكس"
+        },
+        "region": "National",
+        "description": {
+        "en": "Steamed semolina with vegetables and meat.",
+        "fr": "Semoule cuite à la vapeur avec légumes et viande.",
+        "ar": "سميد مطهو على البخار مع الخضار واللحم."
+        },
+        "ingredients": ["semolina", "vegetables", "meat", "chickpeas"]
+    },
+    {
+        "id": 2,
+        "name": {
+        "en": "Chakhchoukha",
+        "fr": "Chakhchoukha",
+        "ar": "شخشوخة"
+        },
+        "region": "National",
+        "description": {
+        "en": "Flatbread with meat and vegetables.",
+        "fr": "Pain plat avec viande et légumes.",
+        "ar": "خبز مسطح مع اللحم والخضار."
+        },
+        "ingredients": ["flatbread", "meat", "vegetables", "spices"]
+    },
+    {
+        "id": 3,
+        "name": {
+        "en": "Mhadjeb",
+        "fr": "Mhadjeb",
+        "ar": "محاجب"
+        },
+        "region": "National",
+        "description": {
+        "en": "Stuffed flatbread with vegetables.",
+        "fr": "Pain plat farci avec des légumes.",
+        "ar": "خبز مسطح محشي بالخضار."
+        },
+        "ingredients": ["flatbread", "vegetables", "spices"]
+    },
+    {
+        "id": 4,
+        "name": {
+        "en": "Dolma",
+        "fr": "Dolma",
+        "ar": "دولمة"
+        },
+        "region": "National",
+        "description": {
+        "en": "Stuffed vegetables with rice and meat.",
+        "fr": "Légumes farcis avec du riz et de la viande.",
+        "ar": "خضار محشوة بالأرز واللحم."
+        },
+        "ingredients": ["vegetables", "rice", "meat", "spices"]
+    },
+    {
+        "id": 5,
+        "name": {
+        "en": "Harira",
+        "fr": "Harira",
+        "ar": "حريرة"
+        },
+        "region": "National",
+        "description": {
+        "en": "Traditional soup with lentils and chickpeas.",
+        "fr": "Soupe traditionnelle avec lentilles et pois chiches.",
+        "ar": "حساء تقليدي مع العدس والحمص."
+        },
+        "ingredients": ["lentils", "chickpeas", "vegetables", "spices"]
+    },
+    {
+        "id": 6,
+        "name": {
+        "en": "Borek",
+        "fr": "Borek",
+        "ar": "بوريك"
+        },
+        "region": "National",
+        "description": {
+        "en": "Pastry filled with meat or vegetables.",
+        "fr": "Pâtisserie farcie avec de la viande ou des légumes.",
+        "ar": "معجنات محشوة باللحم أو الخضار."
+        },
+        "ingredients": ["pastry", "meat", "vegetables", "spices"]
+    }
+]

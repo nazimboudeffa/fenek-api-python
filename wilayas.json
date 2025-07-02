@@ -1,0 +1,28 @@
+[
+  {
+    "code": 16,
+    "name": {
+      "en": "Algiers",
+      "fr": "Alger",
+      "ar": "الجزائر"
+    },
+    "capital": {
+      "en": "Algiers",
+      "fr": "Alger",
+      "ar": "الجزائر"
+    }
+  },
+  {
+    "code": 31,
+    "name": {
+      "en": "Oran",
+      "fr": "Oran",
+      "ar": "وهران"
+    },
+    "capital": {
+      "en": "Oran",
+      "fr": "Oran",
+      "ar": "وهران"
+    }
+  }
+]

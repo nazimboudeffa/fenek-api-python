@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": {
+        "en": "MC Alger",
+        "fr": "MC Alger",
+        "ar": "مولودية الجزائر"
+        },
+        "city": {
+        "en": "Algiers",
+        "fr": "Alger",
+        "ar": "الجزائر"
+        },
+        "stadium": {
+        "en": "July 5 Stadium",
+        "fr": "Stade du 5 Juillet",
+        "ar": "ملعب 5 جويلية"
+        }
+    },
+    {
+        "id": 2,
+        "name": {
+        "en": "CR Belouizdad",
+        "fr": "CR Belouizdad",
+        "ar": "شباب بلوزداد"
+        },
+        "city": {
+        "en": "Algiers",
+        "fr": "Alger",
+        "ar": "الجزائر"
+        },
+        "stadium": {
+        "en": "20 August Stadium",
+        "fr": "Stade du 20 Août",
+        "ar": "ملعب 20 أوت"
+        }
+    },
+    {
+        "id": 3,
+        "name": {
+        "en": "ES Sétif",
+        "fr": "ES Sétif",
+        "ar": "اتحاد سطيف"
+        },
+        "city": {
+        "en": "Sétif",
+        "fr": "سطيف",
+        "ar": "سطيف"
+        },
+        "stadium": {
+        "en": "Hamel Abed Stadium",
+        "fr": "Stade Hamel Abed",
+        "ar": "ملعب حملاوي"
+        }
+    },
+    {
+        "id": 4,
+        "name": {
+        "en": "JS Kabylie",
+        "fr": "JS Kabylie",
+        "ar": "شبيبة القبائل"
+        },
+        "city": {
+        "en": "Tizi Ouzou",
+        "fr": "تيزي وزو",
+        "ar": "تيزي وزو"
+        },
+        "stadium": {
+        "en": "1 November Stadium",
+        "fr": "Stade du 1er Novembre",
+        "ar": ""
+        }
+    }
+]
