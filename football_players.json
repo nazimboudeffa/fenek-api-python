@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Riyad Mahrez",
+      "fr": "Riyad Mahrez",
+      "ar": "رياض محرز"
+    },
+    "position": {
+      "en": "Winger",
+      "fr": "Ailier",
+      "ar": "جناح"
+    },
+    "club": {
+      "en": "Al-Ahli (Saudi Arabia)",
+      "fr": "Al-Ahli (Arabie Saoudite)",
+      "ar": "الأهلي (السعودية)"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Islam Slimani",
+      "fr": "Islam Slimani",
+      "ar": "إسلام سليماني"
+    },
+    "position": {
+      "en": "Striker",
+      "fr": "Attaquant",
+      "ar": "مهاجم"
+    },
+    "club": {
+      "en": "CR Belouizdad",
+      "fr": "CR Belouizdad",
+      "ar": "شباب بلوزداد"
+    }
+  }
+]

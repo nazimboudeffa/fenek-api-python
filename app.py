@@ -10,11 +10,14 @@ app = Flask(__name__)
 with open("wilayas.json", encoding="utf-8") as f:
     wilayas = json.load(f)
 
-with open("teams.json", encoding="utf-8") as f:
+with open("football_teams.json", encoding="utf-8") as f:
     teams = json.load(f)
 
 with open("meals.json", encoding="utf-8") as f:
     meals = json.load(f)
+
+with open("football_players.json", encoding="utf-8") as f:
+    players = json.load(f)
 
 @app.route("/")
 def home():
@@ -104,6 +107,38 @@ def get_team_by_id(team_id):
         "stadium": localize_field(t["stadium"], lang)
     })
 
+@app.route("/players", methods=["GET"])
+def get_players():
+    lang = request.args.get("lang", "en")
+    localized_players = []
+
+    for p in players:
+        localized_players.append({
+            "id": p["id"],
+            "name": localize_field(p["name"], lang),
+            "position": localize_field(p["position"], lang),
+            "club": localize_field(p["club"], lang)
+        })
+
+    return jsonify(localized_players)
+
+
+@app.route("/players/<int:player_id>", methods=["GET"])
+def get_player_by_id(player_id):
+    lang = request.args.get("lang", "en")
+    player = next((p for p in players if p["id"] == player_id), None)
+
+    if not player:
+        return jsonify({"error": "Player not found"}), 404
+
+    localized = {
+        "id": player["id"],
+        "name": localize_field(player["name"], lang),
+        "position": localize_field(player["position"], lang),
+        "club": localize_field(player["club"], lang)
+    }
+
+    return jsonify(localized)
 
 if __name__ == "__main__":
     app.run(debug=True)
